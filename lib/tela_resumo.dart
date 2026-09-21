@@ -35,8 +35,8 @@ class TelaResumo extends StatelessWidget {
 
               const SizedBox(height: 24),
 
-              const Text(
-                'Resumo do Pedido',
+const Text(
+  'Pedido realizado!',
                 style: TextStyle(
                   fontSize: 26,
                   fontWeight: FontWeight.bold,
@@ -78,7 +78,7 @@ class TelaResumo extends StatelessWidget {
                   Navigator.pop(context);
                 },
                 icon: const Icon(Icons.check),
-                label: const Text('Pedido Confirmado'),
+label: const Text('Voltar ao Pedido'),
               ),
             ],
           ),
